@@ -2,7 +2,8 @@ package hello.springmvc.basic.requestmapping;
 
 import org.springframework.web.bind.annotation.*;
 
-@RestController("/mapping/users")
+@RestController
+@RequestMapping("/mapping/users")
 public class MappingClassController {
 
     @GetMapping
